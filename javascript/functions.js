@@ -1,4 +1,4 @@
-function Clientes(cliente, age, job, address) {
+/* function Clientes(cliente, age, job, address) {
     this.cliente = cliente;
     this.age = age;
     this.job = job;
@@ -20,4 +20,24 @@ formDom.buttom.addEventListener('click', e => {
     } else {
         alert('Fill all fields');
     }
-});
+}); */
+
+//>Factory Functions
+
+/* function CreateProduct(name, price, discount = 0.1) {
+    return {
+        name,
+        price,
+        discount,
+        
+
+    }
+ 
+
+const pcGamer = CreateProduct('PC Gamer', 10000);
+console.log(pcGamer.total()); */
+
+/* let regex = /http\S+/gm;
+let link = document.querySelector('#extrafield').innerHTML.match(regex);
+		document.querySelector('#extrafield').innerHTML = document.querySelector('#extrafield').innerHTML.replace(regex, `<a class="srcLink" href="${link}">${link}</a>`); */
+

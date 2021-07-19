@@ -1,6 +1,9 @@
 * {
     /* border: solid 1px; */
 }
+html{
+    background: rgb(197, 197, 197);
+}
 
 .container {
     width: 500px;
