@@ -7,13 +7,14 @@ html {
     margin: auto;
     margin-bottom: 5px;
     width: 60%;
-    max-width: 90%;
+    min-width: 160px;
 }
 
-#filter_button {
-    width: 100px;
+.filter_button {
+    display: inline;
+    width: 150px;
     padding: 5px;
-    margin-bottom: 10px;
+    margin: 10px;
     background-color: rgba(127, 255, 212);
     font-family: courier;
     font-weight: bold;
@@ -22,7 +23,13 @@ html {
     border-radius: 15px;
 }
 
-#filter_button:hover{
+.filter_button:hover {
     background-color: rgb(16, 90, 65);
-    color:white;
+    color: white;
+}
+
+@media (max-width: 460px) {
+    .filter_button {
+        display: block;
+    }
 }

@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <script src="filter_itcd.js"></script>
+        <link rel="stylesheet" href="filter_itcd.css" />
+        <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon" />
+        <title>Filter Protocol Text</title>
+    </head>
+    <body>
+        <div>
+            <textarea
+                label="Text to clean"
+                title="Trash Text"
+                name="trash_text"
+                id="trash_text"
+                cols="70"
+                rows="25"
+            ></textarea>
+        </div>
+        <div id="button_area">
+            <button class="filter_button" type="submit" onclick="filterProtocolo()">Protocolo</button>
+            <button class="filter_button" type="submit" onclick="filterProperty()">Imóvel</button>
+            <button class="filter_button" type="submit" onclick="cleanText()">Clean</button>
+        </div>
+
+        <div id="protocol_list"></div>
+    </body>
+</html>
