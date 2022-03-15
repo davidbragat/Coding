@@ -3,6 +3,13 @@ html {
     font-family: 'Trebuchet MS', Arial, sans-serif;
 }
 
+#title{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-transform: uppercase;
+    font-size:40px;
+    margin: 10px 10px 20px 30%;
+}
+
 #trash_text {
     margin: auto;
     margin-bottom: 5px;
@@ -31,5 +38,9 @@ html {
 @media (max-width: 460px) {
     .filter_button {
         display: block;
+    }
+
+    #title{
+        margin-left:5%;
     }
 }
